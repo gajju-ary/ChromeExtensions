@@ -16,7 +16,7 @@ const checkElement = () => {
 }
 
 checkElement();
-const allChatToggle = document.getElementById("chat-panel").ischecked;
+// const allChatToggle = document.getElementById("chat-panel").ischecked;
 const chatNames = document.getElementById("chat-names").value;
 const profileImage = document.getElementById("profile-image").value;
 console.log(allChatToggle, "Hello");

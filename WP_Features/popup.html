@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -8,9 +7,25 @@
     <!-- <script src="content_script.js"></script> -->
     <meta charset="utf-8" />
     <title>Wp Features</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
+    <h2>WP Features</h2>
+    <!-- <label>
+        <input type="checkbox" id="feature-toggle">
+        Enable Extra Feature
+    </label> -->
     <div id="feature-panel">
         <div class="form-check form-switch">
             <label class="form-check-label" for="chat-panel">Blur All Chat</label>
@@ -33,6 +48,7 @@
             border: 2px solid black;
         }
     </style>
+    <script src="popup.js"></script>
 </body>
 
 </html>
